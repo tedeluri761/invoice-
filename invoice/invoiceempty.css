@@ -1,0 +1,312 @@
+body {
+
+    height: 800px;
+    background: rgba(248, 248, 251, 1);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.conteiner5{
+width: 730px;
+
+margin-left: 355px;
+margin-right: 355px;
+
+    display: flex;
+
+   
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.H1container {
+
+
+    display: flex;
+    /* flex-direction: row; */
+   flex-direction: column;
+    align-items: center;
+    justify-content: center;
+margin: auto;
+margin-top: 77px;
+
+  
+}
+
+.h1div {
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    
+    font-family: League Spartan;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 33.12px;
+    letter-spacing: -1.125px;
+    color: rgba(12, 14, 22, 1);
+    margin: 0;
+}
+
+.Noinvoices {
+    width: 135px;
+height: 15px;
+top: 39px;
+gap: 0px;
+opacity: 0px;
+
+display: inline-block;
+
+white-space: nowrap;
+    font-family: League Spartan;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 15px;
+    letter-spacing: -0.1px;
+    color: rgba(136, 142, 176, 1);
+    margin-top: 5px;
+}
+
+.filtercontainer {
+    position: relative;
+    right: 40px;
+    display: flex;
+    align-items: center;
+   margin-left: 360px;
+}
+
+.filtercontainer p {
+    margin: 0;
+    width: 95px;
+height: 15px;
+gap: 0px;
+opacity: 0px;
+font-family: League Spartan;
+font-size: 15px;
+font-weight: 700;
+line-height: 15px;
+letter-spacing: -0.25px;
+text-align: left;
+color: rgba(12, 14, 22, 1);
+
+}
+
+.filtercontainer img {
+    margin-left: 5px;
+    width: 8.46px;
+height: 4.23px;
+top: 5px;
+left: 109px;
+gap: 0px;
+border: 2px 0px 0px 0px;
+opacity: 0px;
+border:  rgba(124, 93, 250, 1)
+}
+
+.NewINVOICE{
+    width: 150px;
+    height: 48px;
+    gap: 0px;
+    opacity: 0px;
+    background: rgba(124, 93, 250, 1);
+border-radius: 80px;
+    display: flex;
+    align-items: center;
+
+}
+
+.oval{
+    width: 32px;
+    height: 32px;
+    top: 8px;
+    left: 8px;
+    gap: 0px;
+    opacity: 0px;
+background-color: white;   
+border-radius: 100px;
+margin-left: 5px;
+}
+
+.oval p {
+
+
+
+    text-align: center;
+    margin:0;
+    margin-left: -3.5px;
+    padding: 25% 0;
+    color: rgba(124, 93, 250, 1);
+
+}
+
+.ovalPNew{
+    width: 77px;
+height: 15px;
+
+font-family: League Spartan;
+font-size: 15px;
+font-weight: 700;
+line-height: 15px;
+letter-spacing: -0.25px;
+text-align: left;
+color: rgba(255, 255, 255, 1);
+margin-left: 17px;
+position: relative;
+right: 12px;
+
+}
+
+.Rectangle{
+    width: 103px;
+height: 850px;
+gap: 0px;
+border-radius: 0px 20px 20px 0px;
+opacity: 0px;
+background: rgba(55, 59, 83, 1);
+
+}
+.Mask{
+    width: 103.2px;
+height: 105px;
+gap: 0px;
+border-radius: 0px 20px 20px 0px;
+opacity: 0px;
+background: rgba(124, 93, 250, 1);
+
+}
+.Mask2{
+    width: 103.2px;
+    height: 60px;
+    top: 52px;
+    left: 103px;
+    gap: 0px;
+    border-radius: 20px 0px 20px 0px;
+    opacity: 0px;
+    transform: rotate(180deg);
+    
+margin-top: -30px;
+
+    
+background: rgba(146, 119, 255, 1);
+
+}
+
+
+
+
+
+
+
+.pacman {
+    position: absolute;
+    width: 28.85px;
+    height: 29px;
+   
+    
+    background: rgba(124, 93, 250, 1);
+    border-radius: 100px;
+    clip-path: polygon(100% 50%, 0% 0%, 0% 100%);
+
+    transform: rotate(90deg);
+    margin-top: -85px;
+    margin-left: 35.39px;
+
+}
+
+.pacman2 {
+    width: 40px;
+    height: 40px;
+    margin-top: -80px;
+    margin-left: 30px;
+
+    border-radius: 100%;
+    background-color: white;
+    position: absolute;
+}
+
+.moonn{
+    width: 19.99px;
+height: 19.9px;
+
+
+color:  rgba(126, 136, 195, 1);
+position: relative;
+top: 565px;
+left: 43px;
+
+}
+
+.line{
+    border: 0.1px solid rgba(73, 78, 110, 1);;
+    position: relative;
+    top: 595px;
+    width: 100px;
+    height: 1px;
+    
+
+opacity: 1;
+
+    
+    
+}
+
+.avatarr{
+    width: 40px;
+    height: 40px;
+    top: 625px;
+    left: 31px;
+    gap: 0px;
+    opacity: 0px;
+    border-radius: 55px;
+     
+    position: relative;
+
+}
+
+.photoemail{
+    width: 241.34px;
+height: 342px;
+
+margin-top: 140px;
+display: flex;
+flex-direction: column;
+}
+
+
+.firstparagraph{
+    width: 207px;
+    height: 22px;
+    font-family: League Spartan;
+font-size: 24px;
+font-weight: 700;
+line-height: 22.08px;
+letter-spacing: -0.75px;
+text-align: left;
+color: rgba(12, 14, 22, 1);
+padding-top: 20px;
+padding-left: 23px;
+
+}
+
+
+.secondparagraph{
+    width: 193px;
+    height: 31px;
+    font-family: League Spartan;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 15px;
+    letter-spacing: -0.10000000149011612px;
+    text-align: center;
+    color: rgba(136, 142, 176, 1);
+display: inline-block;
+ padding-top: 20px;
+ padding-left: 23px;
+}

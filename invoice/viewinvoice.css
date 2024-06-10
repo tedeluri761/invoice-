@@ -1,0 +1,817 @@
+
+
+
+body {
+
+    height: 900px;
+
+    
+  background: rgba(248, 248, 251, 1);
+  margin: 0;
+  padding: 0;
+  display: flex;
+
+  align-items: center;
+}
+
+.Rectangle {
+  width: 103px;
+  height: 850px;
+  gap: 0px;
+  border-radius: 0px 20px 20px 0px;
+  opacity: 0px;
+  background: rgba(55, 59, 83, 1);
+margin-bottom: 51px;
+}
+.Mask {
+  width: 103.2px;
+  height: 105px;
+  gap: 0px;
+  border-radius: 0px 20px 20px 0px;
+  opacity: 0px;
+  background: rgba(124, 93, 250, 1);
+}
+.Mask2 {
+  width: 103.2px;
+  height: 60px;
+  top: 52px;
+  left: 103px;
+  gap: 0px;
+  border-radius: 20px 0px 20px 0px;
+  opacity: 0px;
+  transform: rotate(180deg);
+
+  margin-top: -30px;
+
+  background: rgba(146, 119, 255, 1);
+}
+
+.pacman {
+  position: absolute;
+  width: 28.85px;
+  height: 29px;
+
+  background: rgba(124, 93, 250, 1);
+  border-radius: 100px;
+  clip-path: polygon(100% 50%, 0% 0%, 0% 100%);
+
+  transform: rotate(90deg);
+  margin-top: -85px;
+  margin-left: 35.39px;
+}
+
+.pacman2 {
+  width: 40px;
+  height: 40px;
+  margin-top: -80px;
+  margin-left: 30px;
+
+  border-radius: 100%;
+  background-color: white;
+  position: absolute;
+}
+
+.moonn {
+  width: 19.99px;
+  height: 19.9px;
+
+  color: rgba(126, 136, 195, 1);
+  position: relative;
+  top: 565px;
+  left: 43px;
+}
+
+.line {
+  border: 0.1px solid rgba(73, 78, 110, 1);
+  position: relative;
+  top: 595px;
+  width: 100px;
+  height: 1px;
+
+  opacity: 1;
+}
+
+.avatarr {
+  width: 40px;
+  height: 40px;
+  top: 625px;
+  left: 31px;
+  gap: 0px;
+  opacity: 0px;
+  border-radius: 55px;
+
+  position: relative;
+}
+
+
+.CenterBox{
+    width: 720px;
+height: 800px;
+margin: auto;
+display: flex;
+flex-direction: column;
+}
+
+
+.arrowback{
+    width: 81.5px;
+    height: 15px;
+   display: flex;
+   flex-direction: row;
+}
+
+.arrowBox{
+    width: 6.46px;
+height: 11.23px;
+
+color: rgba(124, 93, 250, 1);
+
+}
+
+.GoBack {
+    width: 53px;
+    height: 15px;
+    font-family: League Spartan;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 15px;
+    letter-spacing: -0.25px;
+    text-align: left;
+    color: rgba(12, 14, 22, 1);
+margin-top: -1px;
+margin-left: 23px;
+    
+}
+
+
+.Conteiner1{
+    width: 720px;
+height: 88px;
+background: rgba(255, 255, 255, 1);
+
+box-shadow: 0px 10px 10px -10px rgba(72, 84, 159, 0.1004);
+margin-top: 31px;
+display: flex;
+flex-direction: row;
+}
+
+.statuspendingbox{
+    width: 143px;
+height: 40px;
+display: flex;
+flex-direction: row;
+margin-top: 24px;
+margin-left: 32px;
+}
+
+.status{
+    width: 35px;
+    height: 15px;
+    font-family: League Spartan;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 15px;
+    letter-spacing: -0.10000000149011612px;
+    text-align: left;
+    color: rgba(133, 139, 178, 1);
+    
+    
+}
+
+
+.pendingoval{
+    width: 104px;
+    height: 40px;
+
+
+
+background: rgba(255, 143, 0, 0.09);
+
+
+margin-left: 20px;
+
+
+display: flex;
+flex-direction: row;
+justify-content: center;
+
+}
+
+.oval{
+    width: 8px;
+    height: 8px;
+border-radius: 50px;
+    background: rgba(255, 143, 0, 1);
+    margin-top: 18px;
+
+}
+
+
+.pending {
+    width: 51px;
+    height: 15px;
+margin-left: 6px;
+    font-family: League Spartan;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 15px;
+    letter-spacing: -0.25px;
+    text-align: left;
+    color: rgba(255, 143, 0, 1);
+        
+}
+
+
+.editbox{
+    width: 73px;
+    height: 48px;
+  
+    background: rgba(249, 250, 254, 1);
+
+    margin-left: 198px;
+    margin-top: 24px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.edit{
+    width: 26px;
+    height: 15px;
+    font-family: League Spartan;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 15px;
+    letter-spacing: -0.25px;
+    text-align: left;
+    color: rgba(126, 136, 195, 1);
+    
+    
+}
+
+
+
+.deletebox{
+    width: 89px;
+    height: 48px;
+
+    
+  
+    background: rgba(236, 87, 87, 1);
+
+
+margin-left: 8px;
+    margin-top: 24px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.delete{
+    width: 40px;
+    height: 15px;
+
+    font-family: League Spartan;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 15px;
+    letter-spacing: -0.25px;
+    text-align: left;
+    
+    color: rgba(255, 255, 255, 1);
+
+    
+    
+}
+
+
+.markbox{
+    width: 131px;
+    height: 48px;
+    background: rgba(124, 93, 250, 1);
+    margin-top: 24px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    margin-left: 8px;
+    
+}
+
+.mark{
+    width: 84px;
+height: 15px;
+font-family: League Spartan;
+font-size: 15px;
+font-weight: 700;
+line-height: 15px;
+letter-spacing: -0.25px;
+text-align: left;
+color: rgba(255, 255, 255, 1);
+
+
+}
+
+
+
+.Conteiner2{
+    width: 720px;
+height: 700px;
+margin-top: 24px;
+box-sizing: border-box;
+box-shadow: 0px 10px 10px -10px rgba(72, 84, 159, 0.1004);
+background: rgba(255, 255, 255, 1);
+
+}
+
+.XMconteiner{
+    width: 58px;
+    height: 24px; 
+    display: flex;
+    justify-content: row;
+    padding: 0;
+    margin: 0;
+  margin-left: 48px;
+  margin-top: 50px;
+}
+
+.XM1{
+  
+    font-family: League Spartan;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: -0.25px;
+    text-align: left;
+    color: rgba(136, 142, 176, 1);
+   padding: 0;
+   margin: 0;
+
+
+}
+
+.XM2{
+   
+    font-family: League Spartan;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: -0.25px;
+    text-align: left;
+   color: black;
+  
+padding: 0;
+margin: 0;
+}
+
+
+.graphic{
+    width: 82px;
+height: 15px;
+font-family: League Spartan;
+font-size: 13px;
+font-weight: 500;
+line-height: 15px;
+letter-spacing: -0.10000000149011612px;
+text-align: left;
+color: rgba(126, 136, 195, 1);
+padding: 0;
+margin: 0;
+margin-top: 7px;
+margin-left: 48px;
+
+
+}
+
+.london{
+    width: 90px;
+height: 75px;
+font-family: League Spartan;
+font-size: 13px;
+font-weight: 500;
+line-height: 18px;
+letter-spacing: -0.10000000149011612px;
+text-align: right;
+color: rgba(126, 136, 195, 1);
+padding: 0;
+margin: 0;
+margin-left: 594px;
+margin-top:-41px;
+
+}
+
+
+
+
+.augdate{
+    width: 77px;
+    height: 48px;
+padding: 0;
+margin: 0;
+margin-left: 48px;
+}
+
+.invoicedate{
+    width: 66px;
+    height: 15px;
+    font-family: League Spartan;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 15px;
+    letter-spacing: -0.10000000149011612px;
+    text-align: left;
+    color: rgba(126, 136, 195, 1);
+
+    
+}
+
+
+.aug{
+    width: 77px;
+    height: 20px;
+    font-family: League Spartan;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: -0.25px;
+    text-align: left;
+    color: rgba(12, 14, 22, 1);
+    
+    
+}
+
+
+.payimentsep{
+    width: 77px;
+    height: 48px;
+margin: 0;
+padding: 0;
+margin-left: 48px;
+margin-top: 31px;
+}
+
+.paymentdue{
+    width: 71px;
+    height: 15px;
+    font-family: League Spartan;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 15px;
+    letter-spacing: -0.10000000149011612px;
+    text-align: left;
+    color: rgba(126, 136, 195, 1);
+    
+    
+}
+
+.sep{
+    width: 77px;
+    height: 20px;
+    font-family: League Spartan;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: -0.25px;
+    text-align: left;
+    color: rgba(12, 14, 22, 1);
+    
+    
+}
+
+.billalex{
+    width: 86px;
+    height: 130px;
+margin: 0;
+padding: 0;
+
+
+    margin-left: 244px;
+    margin-top: -138px;
+}
+
+.bill{
+    width: 36px;
+    height: 15px;
+    
+    
+    font-family: League Spartan;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 15px;
+    letter-spacing: -0.10000000149011612px;
+    text-align: left;
+    color: rgba(126, 136, 195, 1);
+
+    
+}
+
+.alex{
+    width: 66px;
+    height: 15px;
+    font-family: League Spartan;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: -0.25px;
+    text-align: left;
+    color: rgba(12, 14, 22, 1);
+
+    margin-top: 4px;
+}
+
+.church{
+    width: 87px;
+    height: 75px;
+    font-family: League Spartan;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: -0.10000000149011612px;
+    text-align: left;
+    color: rgba(126, 136, 195, 1);
+    margin-top: 9px;
+
+
+}
+
+.sentgmail{
+    width: 125px;
+    height: 48px;
+    margin-left: 447px;
+    margin-top: -145px;
+}
+
+.sent{
+    width: 39px;
+    height: 15px;
+    font-family: League Spartan;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 15px;
+    letter-spacing: -0.10000000149011612px;
+    text-align: left;
+    color: rgba(126, 136, 195, 1);
+    
+}
+
+.alexgmail{
+    width: 125px;
+    height: 20px;
+    font-family: League Spartan;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: -0.25px;
+    text-align: left;
+    color: rgba(12, 14, 22, 1);
+
+    
+}
+
+
+.bottomitem{
+    width: 634px;
+height: 184px;
+border-radius: 8px 8px 0px 0px;
+background: rgba(249, 250, 254, 1);
+margin-top: 138px;
+margin-left: 48px;
+display: flex;
+flex-direction: column;
+}
+
+.firstdiv{
+margin-top: 32px;
+display: flex;
+flex-direction: row;
+
+}
+
+
+.itemname{
+    width: 59px;
+    height: 20px;
+    font-family: League Spartan;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: -0.10000000149011612px;
+    text-align: left;
+    color: rgba(126, 136, 195, 1);
+margin-left: 32px;
+    
+}
+
+.QTY{
+    width: 26px;
+    height: 18px;
+    font-family: League Spartan;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: -0.10000000149011612px;
+    text-align: left;
+    
+    color: rgba(126, 136, 195, 1);
+margin-left: 227px;
+}
+
+
+.price2{
+    width: 26px;
+    height: 18px;
+    font-family: League Spartan;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: -0.10000000149011612px;
+    text-align: left;
+    color: rgba(126, 136, 195, 1);
+    margin-left: 92px;
+
+}
+
+.total1{
+    width: 27px;
+height: 18px;
+font-family: League Spartan;
+font-size: 13px;
+font-weight: 500;
+line-height: 18px;
+letter-spacing: -0.10000000149011612px;
+text-align: left;
+color: rgba(126, 136, 195, 1);
+margin-left: 111px;
+}
+
+
+.seconddiv{
+    width: 570px;
+    height: 15px;
+    display: flex;
+flex-direction: row;
+white-space: nowrap
+}
+
+
+.banner{
+    width: 92px;
+    height: 15px;
+    font-family: League Spartan;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 15px;
+    letter-spacing: -0.25px;
+    text-align: left;
+    
+    color: rgba(12, 14, 22, 1);
+margin-left: 30px;
+}
+
+.number{
+    width: 5px;
+    height: 15px;
+    font-family: League Spartan;
+font-size: 15px;
+font-weight: 700;
+line-height: 15px;
+letter-spacing: -0.25px;
+text-align: left;
+color: rgba(126, 136, 195, 1);
+margin-left: 204px;
+    
+}
+
+.money1{
+    width: 56px;
+    height: 15px;
+    font-family: League Spartan;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 15px;
+    letter-spacing: -0.25px;
+    text-align: right;
+    
+    color: rgba(126, 136, 195, 1);
+    margin-left: 81px;
+}
+
+.money2{
+    width: 56px;
+    height: 15px;
+    font-family: League Spartan;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 15px;
+    letter-spacing: -0.25px;
+    text-align: right;
+    color: rgba(12, 14, 22, 1);
+    margin-left: 93px;
+}
+
+
+.thirtydiv{
+    width: 570px;
+    height: 15px;
+    display: flex;
+flex-direction: row;
+white-space: nowrap
+    
+}
+
+.email2{
+    width: 82px;
+    height: 15px;
+    font-family: League Spartan;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 15px;
+    letter-spacing: -0.25px;
+    text-align: left;
+    color: rgba(12, 14, 22, 1);
+margin-top: 43px;
+    margin-left: 30.5px;
+}
+
+.number2{
+    width: 9px;
+    height: 15px;
+    font-family: League Spartan;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 15px;
+    letter-spacing: -0.25px;
+    text-align: left;
+    color: rgba(126, 136, 195, 1);
+    margin-top: 43px;
+    margin-left: 213px;
+}
+
+.money3{
+    width: 61px;
+    height: 15px;
+    font-family: League Spartan;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 15px;
+    letter-spacing: -0.25px;
+    text-align: right;
+    color: rgba(126, 136, 195, 1);
+    margin-top: 43px;
+    margin-left: 71px;
+}
+
+.money4{
+    width: 60px;
+    height: 15px;
+    font-family: League Spartan;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 15px;
+    letter-spacing: -0.25px;
+    text-align: right;
+    color: rgba(12, 14, 22, 1);
+    margin-left: 92px;
+    margin-top: 43px;
+}
+
+.tottalmoney{
+    width: 634px;
+height: 80px;
+border-radius: 0px 0px 8px 8px;
+background: rgba(55, 59, 83, 1);
+margin-left: 48px;
+display: flex;
+justify-content: row
+;
+}
+
+
+.amounts{
+    width: 70px;
+    height: 18px;
+    font-family: League Spartan;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: -0.10000000149011612px;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+
+margin-top: 30px;
+    margin-left: 30px;
+}
+
+
+.money5{
+    width: 93px;
+    height: 32px;
+    font-family: League Spartan;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: -0.5px;
+    text-align: right;
+    color: rgba(255, 255, 255, 1);
+
+    margin-left: 415px;
+}
